@@ -61,3 +61,112 @@
     //         Console.ReadKey();
     //     }
     // }
+    // 
+    //     class Empty3 //тело цикла может быть пустым
+    // {
+    //     static void Main()
+    //     {
+    //         int i;
+    //         int sum = 0;
+    // 
+    //         //получить сумму чисел от 1 до 5
+    //         for (i = 1; i <= 5; sum += i++);
+    // 
+    //         Console.WriteLine("Сумма равна " + sum);
+    //         Console.ReadKey();
+    //     }
+    // }
+    // 
+    //     class ForVar
+    // {
+    //     static void Main() {
+    //         int sum = 0;
+    //         int fact = 1;
+    // 
+    //         //вычислить факториал чисел от 1 до 5
+    //         for(int i = 1; i <= 5; i++)
+    //         {
+    //             sum += i; //переменная i действует в цикле
+    //             fact *= i;
+    //         }
+    // 
+    //         //а здесь переменная i недоступна
+    //         Console.WriteLine("Сумма равна " + sum);
+    //         Console.WriteLine("Факториал равен " + fact);
+    //         Console.ReadKey();
+    //     }
+    // }
+    // 
+    //     class WhileDemo // ВЫчислить порядок величины целого числа
+    // {
+    //     static void Main()
+    //     {
+    //         int num;
+    //         int mag;
+    // 
+    //         num = 435679;
+    //         mag = 0;
+    // 
+    //         Console.WriteLine("Число: " + num);
+    // 
+    //         while(num > 0)
+    //         {
+    //             mag++;
+    //             num = num / 10;
+    //         }
+    // 
+    //         Console.WriteLine("Порядок величины: " + mag);
+    //         Console.ReadKey();
+    //     }
+    // }
+    // 
+    //     class Power // вычислить целые степени числа 2
+    // {
+    //     static void Main()
+    //     {
+    //         int e;
+    //         int result;
+    // 
+    //         for (int i=0; i < 10; i++)
+    //         {
+    //             result = i;
+    //             e = i;
+    // 
+    //             while (e > 0)
+    //             {
+    //                 result *= 2;
+    //                 e--;
+    //             }
+    // 
+    //             Console.WriteLine("2 в степени " + i + " равно " + result);
+    //             
+    //         }
+    //         Console.ReadKey();
+    //     }
+    // }
+
+    //     class DoWhileDemo //отобразить цифры целого числа в обратном порядке
+    // {
+    //     static void Main ()
+    //     {
+    //         int num;
+    //         int nextdigit;
+    // 
+    //         num = 198;
+    // 
+    //         Console.WriteLine("Число: " + num);
+    // 
+    //         Console.Write("Число в обратно порядке: ");
+    // 
+    //         do
+    //         {
+    //             nextdigit = num % 10;
+    //             Console.Write(nextdigit);
+    //             num = num / 10;
+    //         } while (num > 0);
+    // 
+    //         Console.WriteLine();
+    //         Console.ReadKey();
+    //     }
+    // }
+
